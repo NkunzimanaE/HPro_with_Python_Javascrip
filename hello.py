@@ -1,4 +1,8 @@
-print("Hello, World !")
+n = int (input("Enter your Pin :\n"))
 
-name = input("Wow !, Hello and Welcome.\n what is your name Sir/Mme :")
-print(f"Wow !, Hello and Welcome Mr {name}")
+if n > 0:
+    print("That number is positive \n", n)
+elif n <0:
+    print("negative number entered ! \n", n)
+else:
+    print("This number is not sweetable for a pin password ! but zero though!! \n", n)
